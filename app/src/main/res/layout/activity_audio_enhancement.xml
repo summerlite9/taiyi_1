@@ -16,11 +16,13 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:gravity="center"
+        android:textColor="@color/black"
         android:layout_marginBottom="24dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:text="此功能可以增强环境声音并减少背景噪音，帮助您更清晰地听到周围的声音。"
         android:textSize="16sp"
         android:layout_marginBottom="24dp" />
@@ -34,6 +36,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="增强级别:"
             android:textSize="16sp" />
 
@@ -63,6 +66,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="人声增强:"
             android:textSize="16sp" />
 
@@ -92,6 +96,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="清晰度:"
             android:textSize="16sp" />
 
@@ -121,6 +126,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="降噪功能:"
             android:textSize="16sp" />
 
@@ -129,7 +135,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:checked="true" />
+            android:checked="true"
+            tools:ignore="TouchTargetSizeCheck" />
 
     </LinearLayout>
 
@@ -137,6 +144,7 @@
         android:id="@+id/status_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:text="准备就绪"
         android:textSize="16sp"
         android:gravity="center"
@@ -154,6 +162,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:text="提示: 请使用耳机以获得最佳效果"
         android:textSize="14sp"
         android:gravity="center"
@@ -162,6 +171,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:text="基于VoiceFilter技术"
         android:textSize="12sp"
         android:gravity="center"

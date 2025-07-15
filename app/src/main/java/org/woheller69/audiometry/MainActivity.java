@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             startTest.setVisibility(View.VISIBLE);
             testResults.setVisibility(View.VISIBLE);
             startSingleTest.setVisibility(View.VISIBLE);
-            if (GithubStar.shouldShowStarDialog(this)) GithubStar.starDialog(this,"https://github.com/woheller69/audiometer");
+            if (GithubStar.shouldShowStarDialog(this)) GithubStar.starDialog(this,"https://github.com/summerlite9/taiyi_1");
         } else {
             startTest.setVisibility(View.GONE);
             testResults.setVisibility(View.GONE);
@@ -229,7 +229,7 @@ public class MainActivity extends AppCompatActivity {
             }
             invalidateOptionsMenu();
         } else if (item.getItemId() == R.id.menu_about) {
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/woheller69/audiometry")));
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/summerlite9/taiyi_1")));
             return true;
         }
         return super.onOptionsItemSelected(item);
