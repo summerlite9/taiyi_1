@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hEARtest</string>
+    <string name="main_menu_greeting_body">Quick and Simple Hearing Evaluation</string>
+    <string name="button_start">Start Full Test</string>
+
+    <string name="title_activity_performTest">Tap When You Hear A Beep</string>
+    <string name="test_running">Test in Progress!</string>
+
+    <string name="title_calibration">Calibration</string>
+    <string name="pre_calibration_info_body">Important: Earphones must not have integrated volume control or loudness, equalizers, etc! \n\nCalibration of your earphones must be performed in a quiet place by at least one normally hearing person between the ages of 18 and 35. Once the test begins, you will hear beeps of various pitches and volumes. Every time you hear a beep, simply tap the screen. You can pause / continue with a long click and speed up with a double click.</string>
+    <string name="pre_calibration_info_simple">Simple Calibration: Requires good hearing at 1000 Hz and headphones are linear across the frequency range.</string>
+    <string name="pre_calibration_info_full">Full Calibration: Extensive tests between 125 Hz and 8000 Hz.</string>
+    <string name="button_begin_full_calibration">Add full calibration</string>
+    <string name="button_begin_simple_calibration">Add simple calibration</string>
+    <string name="title_activity_info">Instructions</string>
+
+    <string name="title_activity_test_lookup">Test Results</string>
+    <string name="title_activity_test_data">Test Data</string>
+    <string name="right_ear">Right Ear</string>
+    <string name="left_ear">Left Ear</string>
+    <string name="button_delete_calibration">Delete Calibration</string>
+    <string name="num_calibrations">Calibrations stored: %d</string>
+    <string name="button_singlestart">Test single frequency</string>
+    <string name="no_test_results">No test results available. Please take a test, then return to this page.</string>
+    <string name="chart_description">Hearing Thresholds (dB HL)</string>
+    <string name="instructions">This app can evaluate your hearing capabilities. \n\nThe term dB HL describes your hearing loss in decibels.\n\nThe table below shows a common way to classify hearing loss (Source: Clark, J. G. (1981). Uses and abuses of hearing loss classification. Asha, 23, 493–500.)\n\nDegree of hearing loss:  dB HL range\nNormal: –10 to 15\nSlight: 16 to 25\nMild:   26 to 40\nModerate:   41 to 55\nModerately severe:  56 to 70\nSevere: 71 to 90\nProfound:   91+\n\nFirst your earphones must be calibrated. \n\nImportant: Earphones must not have integrated volume control or loudness, equalizers, etc! \n\nYou can either perform a full test which requires one or better several persons between the ages of 18 and 35 with normal hearing. Or you can perform a simple calibration at 1000Hz only (assuming good hearing at this frequency). In this case it is assumed that the earphones are linear across the frequency range and calibration values for the other frequencies are then calculated using the ISO226:2003 standard.\n\nWhenever you hear a beep simply touch the screen. You can pause / continue with a long click and speed up with a double click.\n\nIf you have several persons available for calibration simply press "Add Calibration" and an average value of existing calibrations will be calculated. You may also delete the whole calibration.\n\nAfter that you can perform tests and view them in test results.\n\nYou can then also perform tests at single frequencies. There you can manually select ear, frequency, and sound amplitude by clicking on the buttons.</string>
+    <string name="title_activity_performSingleTest">Set parameters manually</string>
+    <string name="dialog_OK_button">OK</string>
+    <string name="dialog_NO_button">NO</string>
+    <string name="dialog_Later_button">Maybe later</string>
+    <string name="dialog_StarOnGitHub">Do you like this app? Please star it on GitHub!</string>
+    <string name="visit_on_github">Visit on GitHub</string>
+    <string name="main_restore">Restore Data from Documents folder</string>
+    <string name="main_restore_message">Restore Data from Documents folder. Open folder \'Documents\' and select hEARtest.zip if needed!</string>
+    <string name="main_backup">Backup Data to Documents folder</string>
+    <string name="permission_required">Permission required</string>
+    <string name="permission_message">%s needs access to external storage. Please accept permission and try again.</string>
+    <string name="toast_delete">Please delete file and try again</string>
+    <string name="error_volume">Error: cannot get lower! Try setting: Use low gain</string>
+    <string name="debug_amplitude">Amplitude: %d</string>
+    <string name="debug">Debug</string>
+    <string name="delete">Delete</string>
+    <string name="test_at">Test at %s</string>
+    <string name="left">LEFT</string>
+    <string name="right">RIGHT</string>
+    <string name="test_paused">Test paused</string>
+    <string name="use_low_gain">Use low gain</string>
+    <string name="changeGain">Change gain</string>
+    <string name="changeGainDescription">This will delete all calibration and test data. Continue?</string>
+    
+    <!-- 听力增强功能相关字符串 -->
+    <string name="title_activity_audio_enhancement">听力增强</string>
+    <string name="audio_enhancement_description">实时听力增强和降噪</string>
+    <string name="enhancement_level">增强级别:</string>
+    <string name="noise_reduction">降噪功能:</string>
+    <string name="status_ready">准备就绪</string>
+    <string name="status_running">正在运行</string>
+    <string name="status_stopped">已停止</string>
+    <string name="status_error">错误: %s</string>
+    <string name="button_start_enhancement">开始</string>
+    <string name="button_stop_enhancement">停止</string>
+    <string name="headphones_recommended">提示: 请使用耳机以获得最佳效果</string>
+    <string name="based_on_voicefilter">基于VoiceFilter技术</string>
+    <string name="permission_record_audio">需要录音权限才能使用听力增强功能</string>
+</resources>

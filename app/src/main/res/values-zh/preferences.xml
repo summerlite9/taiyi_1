@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 设置界面文本 -->
+    <string name="pref_calibration_title">设备校准</string>
+    <string name="pref_calibration_summary">选择设备校准配置</string>
+    
+    <string name="pref_headphone_title">耳机类型</string>
+    <string name="pref_headphone_summary">选择您使用的耳机类型</string>
+    
+    <string name="pref_unit_title">测量单位</string>
+    <string name="pref_unit_summary">选择听力级单位</string>
+    
+    <string name="pref_language_title">应用语言</string>
+    <string name="pref_language_summary">选择界面显示语言</string>
+    
+    <string name="pref_dark_mode_title">深色模式</string>
+    <string name="pref_dark_mode_summary">启用深色界面主题</string>
+</resources>

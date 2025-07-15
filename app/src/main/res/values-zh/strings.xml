@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">听力测试</string>
+<string name="main_menu_greeting_body">简单的听力评估</string>
+<string name="button_start">开始完整测试</string>
+<string name="title_activity_performTest">听到蜂鸣声时点击</string>
+<string name="test_running">测试正在进行中！</string>
+<string name="title_calibration">校准</string>
+    <string name="pre_calibration_info_body">重要提示：耳机不得内置音量控制、响度调节或均衡器等附加功能！\n\n耳机校准需由至少1名18-35岁听力正常者在安静环境中完成。测试开始后，您将听到不同音高和响度的提示音。每次听到提示音时轻触屏幕。长按可暂停/继续测试，双击可加速测试进程。</string>
+    <string name="pre_calibration_info_simple">简易校准说明：需确保在1000Hz频率听力正常，且耳机具备全频段线性响应特性。</string>
+<string name="pre_calibration_info_full">完全校准：在125 Hz和8000 Hz之间进行广泛测试。</string>
+<string name="button_begin_full_calibration">添加完整校准</string>
+<string name="button_begin_simple_calibration">添加简单校准</string>
+<string name="title_activity_info">说明</string>
+<string name="title_activity_test_lookup">测试结果</string>
+<string name="title_activity_test_data">测试数据</string>
+<string name="right_ear">右耳</string>
+<string name="left_ear">左耳</string>
+<string name="button_delete_calibration">删除校准</string>
+<string name="num_calibrations">存储的校准：%d</string>
+<string name="button_singlestart">测试单频</string>
+<string name="no_test_results">没有可用的测试结果。请进行测试，然后返回此页面。</string>
+<string name="chart_description">听力阈值（dB HL）</string>
+    <string name="instructions">本应用可评估您的听力能力。\n\n术语\"dB HL\"（分贝听力级）用于描述您的听力损失程度。\n\n下表展示了听力损失的通用分类标准（来源：Clark, J. G. (1981). Uses and abuses of hearing loss classification. Asha, 23, 493–500.）：\n\n听力损失程度 | dB HL范围\n正常：-10至15\n轻微：16至25\n轻度：26至40\n中度：41至55\n中重度：56至70\n重度：71至90\n极重度：91及以上\n\n使用前需校准耳机：\n\n重要提示：耳机不能内置音量控制、响度调节或均衡器等功能！\n\n校准方式：\n1. 完整校准：需1名或多名18-35岁听力正常者参与\n2. 简易校准：仅在1000Hz频率校准（需确保该频段听力正常），其他频率校准值将根据ISO226:2003标准自动推算\n\n操作指南：\n• 听到提示音时轻触屏幕\n• 长按暂停/继续测试\n• 双击加速测试进程\n\n多人校准操作：\n点击\"添加校准\"计算多人平均值\n点击\"删除校准\"清除历史数据\n\n完成校准后：\n• 可进行听力测试，结果在\"测试结果\"中查看\n• 支持单频测试：手动选择耳朵、频率和声强</string><string name="title_activity_performSingleTest">手动设置参数</string>
+<string name="dialog_OK_button">确定</string>
+<string name="dialog_NO_button">否</string>
+<string name="dialog_Later_button">也许以后吧</string>
+<string name="dialog_StarOnGitHub">你喜欢这个应用程序吗？请把它放在GitHub上！</string>
+<string name="visit_on_github">访问github</string>
+<string name="main_restore">从Documents文件夹还原数据</string>
+<string name="main_restore_message">从Documents文件夹还原数据。打开文件夹"Documents"，如果需要，选择hEARtest.zip！</string>
+<string name="main_backup">将数据备份到Documents文件夹</string>
+<string name="permission_required">需要权限</string>
+<string name="permission_message">%s需要访问外部存储。请接受权限，然后重试。</string>
+<string name="toast_delete">请删除文件并重试</string>
+<string name="error_volume">错误：无法降低！尝试设置：使用低增益</string>
+<string name="debug_amplitude">振幅：%d</string>
+<string name="debug">调试</string>
+<string name="delete">删除</string>
+<string name="test_at">在%s进行测试</string>
+<string name="left">left</string>
+<string name="right">right</string>
+<string name="test_paused">测试已暂停</string>
+<string name="use_low_gain">使用低增益</string>
+<string name="changeGain">更改增益</string>
+<string name="changeGainDescription">这将删除所有校准和测试数据。继续？</string>
+</resources>

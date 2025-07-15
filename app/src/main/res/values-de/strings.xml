@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">hEARtest</string>
+    <string name="main_menu_greeting_body">Schneller und einfacher Hörtest</string>
+    <string name="button_start">Vollständigen Test starten</string>
+
+    <string name="title_activity_performTest">Bei Piepton tippen</string>
+    <string name="test_running">Test läuft!</string>
+
+    <string name="title_calibration">Kalibrierung</string>
+    <string name="pre_calibration_info_body">Wichtig: Die Kopfhörer dürfen keine integrierte Lautstärkeregelung, Loudness, Equalizer etc. haben! \n\nDie Kalibrierung Ihrer Kopfhörer muss an einem ruhigen Ort von mindestens einer normal hörenden Person zwischen 18 und 35 Jahren durchgeführt werden. Sobald der Test beginnt, hören Sie Pieptöne in verschiedenen Tonhöhen und Lautstärken. Jedes Mal, wenn Sie einen Piepton hören, tippen Sie einfach auf den Bildschirm. Mit einem langen Klick können Sie den Test pausieren / fortsetzen. Mit einem Doppelklick können Sie den Test beschleunigen. </string>
+    <string name="pre_calibration_info_simple">Einfache Kalibrierung: Erfordert gutes Hörvermögen bei 1000 Hz und Kopfhörer, die über den gesamten Frequenzbereich linear sind.</string>
+    <string name="pre_calibration_info_full">Volle Kalibrierung: Umfassender Test zwischen 125 Hz und 8000 Hz.</string>
+    <string name="button_begin_full_calibration">Volle Kalibrierung hinzufügen</string>
+    <string name="button_begin_simple_calibration">Einfache Kalibrierung hinzufügen</string>
+    <string name="title_activity_info">Anleitung</string>
+
+    <string name="title_activity_test_lookup">Testergebnisse</string>
+    <string name="title_activity_test_data">Testdaten</string>
+    <string name="right_ear">Rechtes Ohr</string>
+    <string name="left_ear">Linkes Ohr</string>
+    <string name="button_delete_calibration">Kalibrierung löschen</string>
+    <string name="num_calibrations">Gespeicherte Kalibrierungen: %d</string>
+    <string name="button_singlestart">Einzelne Frequenz testen</string>
+    <string name="no_test_results">Keine Testergebnisse vorhanden. Bitte machen Sie einen Test und kehren Sie dann zu dieser Seite zurück.</string>
+    <string name="chart_description">Hörschwelle (dB HL)</string>
+    <string name="instructions">Diese App kann Ihr Hörvermögen testen. \n\nDer Begriff dB HL beschreibt Ihren Hörverlust in Dezibel.\n\n\Die unten stehende Tabelle zeigt eine häufige Art der Klassifizierung von Hörverlust (Quelle: Clark, J. G. (1981). Uses and abuses of hearing loss classification. Asha, 23, 493–500.)\n\nGrad des Hörverlusts: dB HL-Bereich\nNormal: -10 bis 15\nLeicht: 16 bis 25\nMild: 26 bis 40\nMittelgradig: 41 bis 55\nMäßig schwer: 56 bis 70\nSchwer: 71 bis 90\nSehr schwer: 91+\n\nZuerst müssen Ihre Kopfhörer kalibriert werden. \n\nWichtig: Die Kopfhörer dürfen keine integrierte Lautstärkeregelung, Loudness, Equalizer etc. haben! \n\nSie können entweder einen vollständigen Test durchführen, für den eine oder besser mehrere Personen zwischen 18 und 35 Jahren mit normalem Gehör erforderlich sind. Oder Sie können eine einfache Kalibrierung nur bei 1000 Hz durchführen (vorausgesetzt, Sie hören bei dieser Frequenz gut). In diesem Fall wird davon ausgegangen, dass die Ohrhörer über den Frequenzbereich linear sind, und die Kalibrierungswerte für die anderen Frequenzen werden dann unter Verwendung des ISO226:2003-Standards berechnet.\n\nWenn Sie einen Piepton hören, berühren Sie einfach den Bildschirm. Mit einem langen Klick können Sie den Test pausieren / fortsetzen. Mit einem Doppelklick können Sie den Test beschleunigen.\n\nWenn Sie mehrere Personen für die Kalibrierung zur Verfügung haben, drücken Sie einfach auf „Kalibrierung hinzufügen“ und es wird ein Durchschnittswert aus vorhandenen Kalibrierungen berechnet. Sie können auch die gesamte Kalibrierung löschen.\n\nDanach können Sie Tests durchführen und diese in den Testergebnissen anzeigen.\n\nSie können dann auch Tests bei Einzelfrequenzen durchführen. Dort können Sie Ohr, Frequenz und Tonamplitude manuell auswählen, indem Sie auf die Schaltflächen klicken.</string>
+    <string name="title_activity_performSingleTest">Parameter manuell ändern</string>
+    <string name="dialog_OK_button">OK</string>
+    <string name="dialog_NO_button">NEIN</string>
+    <string name="dialog_Later_button">Vielleicht später</string>
+    <string name="dialog_StarOnGitHub">Mögen Sie die App? Vergeben Sie einen Stern auf GitHub!</string>
+    <string name="visit_on_github">Auf GitHub besuchen</string>
+    <string name="main_restore">Daten aus \'Dokumente\' wiederherstellen</string>
+    <string name="main_restore_message">Daten aus dem Dokumentenordner wiederherstellen. Falls nötig, Ordner \'Documents\' öffnen und hEARtest.zip auswählen!</string>
+    <string name="main_backup">Daten in \'Dokumente\' sichern</string>
+    <string name="permission_required">Berechtigung erforderlich</string>
+    <string name="permission_message">%s benötigt Zugriff auf den externen Speicher. Bitte die Berechtigung erteilen und erneut versuchen.</string>
+    <string name="toast_delete">Bitte die Datei zuerst löschen und erneut versuchen.</string>
+    <string name="error_volume">Fehler: Leiser nicht möglich! Probieren Sie die Option: Geringere Verstärkung nutzen</string>
+    <string name="debug_amplitude">Amplitude: %d</string>
+    <string name="debug">Debug</string>
+    <string name="delete">Löschen</string>
+    <string name="test_at">Test um %s</string>
+    <string name="left">LINKS</string>
+    <string name="right">RECHTS</string>
+    <string name="test_paused">Test angehalten</string>
+    <string name="use_low_gain">Geringere Verstärkung nutzen</string>
+    <string name="changeGain">Verstärkung ändern</string>
+    <string name="changeGainDescription">Alle Kalibrierungs- und Testdaten werden gelöscht. Fortsetzen?</string>
+</resources>

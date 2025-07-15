@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="orange">#2196F3</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#888888</color>
+    <color name="green">#adce49</color>
+    <color name="background_grey">#F5F5F5</color>
+    <color name="colorPrimary">#3F51B5</color>      <!-- 深蓝色 -->
+    <color name="colorPrimaryDark">#303F9F</color>  <!-- 深蓝色变体 -->
+    <color name="audiometry_blue">#2196F3</color>   <!-- 听力应用蓝 -->
+    <color name="textPrimary">#212121</color>
+</resources>
